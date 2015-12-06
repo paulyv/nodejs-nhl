@@ -43,7 +43,7 @@
                 var now = moment();
                 var diff = now.diff(gameTime, 'days');
 
-            // if-block adjusts how old games will be shown (0 = only today and future, now that it is commented shows everything)
+            // if-block adjusts how old games will be shown (0 = only today and future. now that it is commented shows everything)
 
             //if(diff == 0) {
                 var gameDate = moment(value.longStartTime).add(7, 'hours').format('MMMM Do YYYY, HH:mm a');
