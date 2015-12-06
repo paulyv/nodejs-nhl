@@ -3,15 +3,11 @@ var router  = express.Router();
 var path    = require('path');
 var request = require('request');
 
-/* GET home page. */
-//router.get('/', function(req, res, next) {
-//  res.sendFile(path.join(__dirname, '../views/etusivu.html'));
-//});
-
 router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+// Returns the game data..
 router.get('/scores', function(req, res, next) {
   request('http://live.nhl.com/GameData/Scoreboard.json', function (error, response, body) {
     if (!error && response.statusCode == 200) {
