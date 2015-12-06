@@ -3,4 +3,8 @@ NodeJS &amp; ExpressJS webapp to fetch and parse NHL data. Looks pretty plain bu
 
 Btw, default timezone is set to GMT +2 hrs.
 
-![alt tag](https://github.com/paulyv/nodejs-nhl/raw/master/screenshot.png)
+![alt tag](https://github.com/paulyv/nodejs-nhl/raw/master/screenshot1.png)
+
+Takes a couple of seconds to download the data and then it's displayed.
+
+![alt tag](https://github.com/paulyv/nodejs-nhl/raw/master/screenshot2.png)
