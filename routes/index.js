@@ -4,8 +4,12 @@ var path    = require('path');
 var request = require('request');
 
 /* GET home page. */
+//router.get('/', function(req, res, next) {
+//  res.sendFile(path.join(__dirname, '../views/etusivu.html'));
+//});
+
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../views/etusivu.html'));
+  res.render('index');
 });
 
 router.get('/scores', function(req, res, next) {

@@ -1,5 +1,19 @@
 extends layout
-
 block content
-  h1= title
-  p Welcome to #{title}
+        .container
+            #loading
+                h2
+                    | Downloading data..
+                    span.glyphicon.glyphicon-cloud-download
+            #games
+                table#rivit.table.table-condensed.table-bordered.table-hover(style="width:50%;")
+                    thead
+                        tr
+                            th DATE
+                            th GAME
+                            th SCORE
+                            th ID
+                            th LINK
+                    tbody
+                        tr
+            script(src="/javascripts/getstats.js")
