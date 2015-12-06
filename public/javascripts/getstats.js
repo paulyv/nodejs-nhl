@@ -1,4 +1,5 @@
 $.getJSON("/scores", function(json) {
+
     var gamesJson = json;
 
     $.each(gamesJson.games, function (index, value) {
@@ -22,4 +23,6 @@ $.getJSON("/scores", function(json) {
 
     });
     $('#loading').html('<h2>Downloaded 100% <span class="glyphicon glyphicon-ok"></span></h2>');
+    $('footer').css("display", "block");
+
 });
