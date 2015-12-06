@@ -7,4 +7,7 @@ Btw, default timezone is set to GMT +2 hrs.
 
 Takes a couple of seconds to download the data and then it's displayed
 
+
+
+
 ![alt tag](https://github.com/paulyv/nodejs-nhl/raw/master/screenshot2.png)
