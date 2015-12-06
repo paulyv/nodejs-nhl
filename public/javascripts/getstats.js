@@ -23,6 +23,7 @@ $.getJSON("/scores", function(json) {
 
     });
     $('#loading').html('<h2>Downloaded 100% <span class="glyphicon glyphicon-ok"></span></h2>');
+    $('#loading span').css("color", "#00ff00");
     $('footer').css("display", "block");
 
 });
